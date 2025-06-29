@@ -22,7 +22,7 @@
     <a href="{{ route('user.faqs') }}">FAQs</a>
         <div class="user-menu">
           <div class="user-icon">
-            <img src="../img/usericon.png" alt="User Icon" class="profile-pic" />
+            <img src="{{ asset('IMG/usericon.png') }}">
           </div>
           <div class="dropdown">
           <ul>

@@ -13,7 +13,7 @@
     <header>
         <nav class="navbar">
           <div class="logo">
-           <img src="{{ asset('IMG/logoWGJ.png') }}"
+           <img src="{{ asset('IMG/logoWGJ.png') }}" alt="WeGoJim Logo" />
             <span>WeGoJim</span>
           </div>
         <div class="nav-links">
