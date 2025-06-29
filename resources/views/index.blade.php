@@ -81,7 +81,7 @@
         <div class="program-container">
             <!-- Card 1 -->
             <div class="program-card">
-                <img src="{{ asset('IMG/crossfit.jpg') }}" alt="Program Latihan CrossFit">
+                <img src="{{ asset('IMG/crossfit.jpg') }}" alt="Program Latihan CrossFit" class="program-image">
                 <div class="program-info">
                     <p class="workout-type">Workout</p>
                     <h3>Program Latihan CrossFit</h3>
@@ -95,7 +95,7 @@
 
             <!-- Card 2 -->
             <div class="program-card">
-            <img src="{{ asset('IMG/pullup.jpg') }}" alt="Program Calisthenics">
+            <img src="{{ asset('IMG/pullup.jpg') }}" alt="Program Calisthenics" class="program-image">
                 <div class="program-info">
                     <p class="workout-type">Workout</p>
                     <h3>Program Calisthenics</h3>
@@ -109,7 +109,7 @@
 
             <!-- Card 3 -->
             <div class="program-card">
-               <img src="{{ asset('IMG/pushdumbel.jpg') }}" alt="Program Home Workout">
+               <img src="{{ asset('IMG/pushdumbel.jpg') }}" alt="Program Home Workout" class="program-image">
                 <div class="program-info">
                     <p class="workout-type">Workout</p>
                     <h3>Program Home Workout</h3>
