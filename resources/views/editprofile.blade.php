@@ -13,7 +13,7 @@
 <header>
   <nav class="navbar">
     <div class="logo">
-      <img src="../img/logoWGJ.png" alt="WeGoJim Logo" />
+      <img src="{{ asset('IMG/logoWGJ.png') }}" alt="WeGoJim Logo" />
       <span>WeGoJim</span>
     </div>
     <div class="nav-links">
@@ -25,7 +25,7 @@
       <a href="{{ route('user.faqs') }}">FAQs</a>
       <div class="user-menu">
         <div class="user-icon">
-          <img src="../img/usericon.png" alt="User Icon" class="profile-pic" />
+          <img src="{{ asset('IMG/usericon.png') }}" alt="User Icon" class="profile-pic" />
         </div>
         <div class="dropdown">
           <ul>

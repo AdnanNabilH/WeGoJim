@@ -10,7 +10,7 @@
 <header>
     <nav class="navbar">
       <div class="logo">
-        <img src="../img/logoWGJ.png" alt="WeGoJim Logo" />
+       <img src="{{ asset('IMG/logoWGJ.png') }}" alt="WeGoJim Logo" />
         <span>WeGoJim</span>
       </div>
       <div class="nav-links">
@@ -24,7 +24,7 @@
         <!-- User Profile Dropdown -->
         <div class="user-menu">
           <div class="user-icon">
-            <img src="../img/usericon.png" alt="User Icon" class="profile-pic" />
+            <img src="{{ asset('IMG/usericon.png') }}" alt="User Icon" class="profile-pic" />
           </div>
           <div class="dropdown">
           <ul>
@@ -89,7 +89,7 @@
                   @if ($course->youtube_url)
                     <iframe class="course-img" src="{{ $course->youtube_url }}" frameborder="0" allowfullscreen></iframe>
                   @else
-                    <img src="{{ asset('img/placeholder.jpg') }}" alt="Course Image" class="course-img">
+                   <img src="{{ asset('IMG/placeholder.jpg') }}" alt="Course Image" class="course-img">
                   @endif
 
                   <div class="menu-container">

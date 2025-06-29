@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="img/logoWGJ.png" alt="WeGoJim Logo" />
+                <img src="{{ asset('IMG/logoWGJ.png') }}" alt="WeGoJim Logo" />
                 <span>WeGoJim</span>
             </div>
        <div class="nav-links">
@@ -37,7 +37,7 @@
             <button class="cta-btn">Get Started</button>
         </div>
         <div class="hero-image">
-            <img src="img/fotoobadan.png" alt="Person lifting weights">
+            <img src="{{ asset('IMG/fotoobadan.png') }}" alt="Person lifting weights">
             <div class="circle-container">
                 <div class="circle large"></div>
                 <div class="circle medium"></div>
@@ -53,7 +53,7 @@
         <div class="services-container">
             <div class="service-card red">
                 <div class="icon">
-                    <img src="img/barbel.png" alt="Gym Workouts">
+                  <img src="{{ asset('IMG/barbel.png') }}" alt="Gym Workouts">
                     <span>Gym Workouts</span>
                 </div>
                 <p>Latihan buat kamu yang memiliki preferensi latihan di Gym! 
@@ -63,7 +63,7 @@
             </div>
             <div class="service-card white">
                 <div class="icon">
-                    <img src="img/barbel.png" alt="Home Workouts">
+                     <img src="{{ asset('IMG/barbel.png') }}" alt="Home Workouts">
                     <span>Home Workouts</span>
                 </div>
                 <p>Latihan buat kamu yang memiliki preferensi latihan di Rumah!
@@ -81,7 +81,7 @@
         <div class="program-container">
             <!-- Card 1 -->
             <div class="program-card">
-                <img src="img/crossfit.jpg" alt="Program Latihan CrossFit" class="program-image">
+                <img src="{{ asset('IMG/crossfit.jpg') }}" alt="Program Latihan CrossFit">
                 <div class="program-info">
                     <p class="workout-type">Workout</p>
                     <h3>Program Latihan CrossFit</h3>
@@ -95,7 +95,7 @@
 
             <!-- Card 2 -->
             <div class="program-card">
-                <img src="img/pullup.jpg" alt="Program Calisthenics" class="program-image">
+            <img src="{{ asset('IMG/pullup.jpg') }}" alt="Program Calisthenics">
                 <div class="program-info">
                     <p class="workout-type">Workout</p>
                     <h3>Program Calisthenics</h3>
@@ -109,7 +109,7 @@
 
             <!-- Card 3 -->
             <div class="program-card">
-                <img src="img/pushdumbel.jpg" alt="Program Home Workout" class="program-image">
+               <img src="{{ asset('IMG/pushdumbel.jpg') }}" alt="Program Home Workout">
                 <div class="program-info">
                     <p class="workout-type">Workout</p>
                     <h3>Program Home Workout</h3>
@@ -131,28 +131,28 @@
         
         <div class="testimonials">
           <div class="testimonial-card">
-            <img src="img/testipics.png" alt="foto" class="profile-img">
+            <img src="{{ asset('IMG/testipics.png') }}" alt="foto" class="profile-img">
             <h3>Nama</h3>
             <p class="occupation">Pengguna Aktif</p>
             <p class="testimonial-text">Enak dan pilihan aktivitas yang menarik. Sangat membantu saya berolahraga.</p>
           </div>
     
           <div class="testimonial-card">
-            <img src="img/testipics.png" alt="foto" class="profile-img">
+            <img src="{{ asset('IMG/testipics.png') }}" alt="foto" class="profile-img">
             <h3>Nama</h3>
             <p class="occupation">Gym Trainer</p>
             <p class="testimonial-text">Latihan yang efektif dan tim yang mendukung. Luar biasa!</p>
           </div>
     
           <div class="testimonial-card">
-            <img src="img/testipics.png" alt="foto" class="profile-img">
+        <img src="{{ asset('IMG/testipics.png') }}" alt="foto" class="profile-img">
             <h3>Nama</h3>
             <p class="occupation">Dokter</p>
             <p class="testimonial-text">Sangat menyarankan WeGoJim sebagai tempat yang luar biasa untuk berolahraga.</p>
           </div>
     
           <div class="testimonial-card">
-            <img src="img/testipics.png" alt="foto" class="profile-img">
+            <img src="{{ asset('IMG/testipics.png') }}" alt="foto" class="profile-img">
             <h3>Nama</h3>
             <p class="occupation">Instruktur</p>
             <p class="testimonial-text">Program yang sempurna, sangat merekomendasikan untuk siapa saja!</p>
@@ -165,7 +165,7 @@
         <div class="footer-container">
             <div class="footer-logo-wrapper">
                 <div class="footer-logo">
-                    <img src="img/logoWGJ.png" alt="WeGoJim Logo" />
+                    <img src="{{ asset('IMG/logoWGJ.png') }}" alt="WeGoJim Logo" />
                     <span>WeGoJim</span>
                 </div>
                 <p class="footer-description">Top learning experiences that create more <br> talent in the world.</p>

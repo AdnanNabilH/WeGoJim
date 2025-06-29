@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="img/logoWGJ.png" alt="WeGoJim Logo" />
+               <img src="{{ asset('IMG/logoWGJ.png') }}" alt="WeGoJim Logo" />
                 <span>WeGoJim</span>
             </div>
             <div class="nav-links">
@@ -35,11 +35,11 @@
           <p>WeGoJim hadir untuk membantu kamu memulai perjalanan fitness dengan menyediakan berbagai course latihan workout yang ramah bagi pemula, baik untuk latihan di rumah maupun di gym. Dengan panduan dari trainer berpengalaman, WeGoJim menawarkan program latihan yang mudah diikuti, dirancang untuk meningkatkan kebugaranmu secara menyeluruh. Mulai perjalanan fitnessmu bersama kami dan jadilah versi terbaik dari dirimu!</p>
           <a href="{{ url('/daftar') }}"id="cta-button">Gabung Sekarang</a>
         </div>
-              <img src="img/heroimg.png" alt="Image 1" class="hero-img">
+              <img src="{{ asset('IMG/heroimg.png') }}" alt="Image 1" class="hero-img">
 </section>    
 <section class="features-section">
         <div class="featurimg">
-            <img src="img/cok.png" alt="Mockup 1" class="mockup">
+            <img src="{{ asset('IMG/cok.png') }}" alt="Mockup 1" class="mockup">
         </div>
 
         <div class="text-content">
@@ -97,7 +97,7 @@
     <div class="footer-container">
         <div class="footer-logo-wrapper">
             <div class="footer-logo">
-                <img src="img/logoWGJ.png" alt="WeGoJim Logo" />
+                <img src="{{ asset('IMG/logoWGJ.png') }}" alt="WeGoJim Logo" />
                 <span>WeGoJim</span>
             </div>
             <p class="footer-description">Top learning experiences that create more <br> talent in the world.</p>

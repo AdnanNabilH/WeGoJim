@@ -10,7 +10,7 @@
 <header>
     <nav class="navbar">
       <div class="logo">
-        <img src="../img/logoWGJ.png" alt="WeGoJim Logo" />
+       <img src="{{ asset('IMG/logoWGJ.png') }}" alt="WeGoJim Logo" />
         <span>WeGoJim</span>
       </div>
        <div class="nav-links">
@@ -22,7 +22,7 @@
     <a href="{{ route('user.faqs') }}">FAQs</a>
         <div class="user-menu">
           <div class="user-icon">
-            <img src="../img/usericon.png" alt="User Icon" class="profile-pic" />
+           <img src="{{ asset('IMG/usericon.png') }}" alt="User Icon" class="profile-pic" />
           </div>
           <div class="dropdown">
           <ul>
@@ -48,11 +48,11 @@
           <h2>WeGoJim, Workout Plan Di <br> Gym & Rumah Terbaik Untuk <br> Semua Kalangan</h2>
           <p>WeGoJim hadir untuk membantu kamu memulai perjalanan fitness dengan menyediakan berbagai course latihan workout yang ramah bagi pemula, baik untuk latihan di rumah maupun di gym. Dengan panduan dari trainer berpengalaman, WeGoJim menawarkan program latihan yang mudah diikuti, dirancang untuk meningkatkan kebugaranmu secara menyeluruh. Mulai perjalanan fitnessmu bersama kami dan jadilah versi terbaik dari dirimu!</p>
         </div>
-              <img src="../img/heroimg.png" alt="Image 1" class="hero-img">
+              <img src="{{ asset('IMG/heroimg.png') }}" alt="Image 1" class="hero-img">
 </section>    
 <section class="features-section">
         <div class="featurimg">
-            <img src="../img/cok.png" alt="Mockup 1" class="mockup">
+           <img src="{{ asset('IMG/cok.png') }}" alt="Mockup 1" class="mockup">
         </div>
 
         <div class="text-content">

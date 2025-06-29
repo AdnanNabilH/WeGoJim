@@ -11,55 +11,56 @@
 </head>
 <body>
   <header>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="img/logoWGJ.png" alt="WeGoJim Logo" />
-                <span>WeGoJim</span>
-            </div>
-            <div class="nav-links">
-    <input type="text" placeholder="Search...">
-     <a href="{{ url('') }}">Home</a>
-    <a href="{{ url('/about') }}">About us</a>
-    <a href="{{ url('/course') }}">Courses</a>
-    <a href="{{ url('/') }}">Contact us</a>
-    <a href="#">FAQs</a>
-    <a href="{{ url('/daftar') }}" class="daftar">Daftar</a>
-    <a href="{{ url('/masuk') }}" class="login-btn">Login</a>
-             </div>
-        </nav>
-    </header>
- <section class="hero">
-  <div class="hero-content">
-    <h1>COURSE</h1>
-    <h2>WeGoJim, Workout Plan Di <br />Gym & Rumah Terbaik Untuk <br />Semua Kalangan</h2>
-    <p>
-      WeGoJim hadir untuk membantu kamu memulai perjalanan fitness dengan menyediakan berbagai course latihan workout yang ramah bagi pemula, baik untuk latihan di rumah maupun di gym. Dengan panduan dari trainer berpengalaman, WeGoJim menawarkan program latihan yang mudah diikuti, dirancang untuk meningkatkan kebugaranmu secara menyeluruh. Mulai perjalanan fitnessmu bersama kami dan jadilah versi terbaik dari dirimu!
-    </p>
-    <a href="{{ url('/daftar') }}" id="cta-button">Enroll Course</a>
-  </div>
-
-  <div class="hero-side">
-    <img src="img/coursee.jpg" alt="Workout Course" class="hero-img" />
-
-    <div class="wrapper">
-      <div class="container">
-        <i class="fas fa-smile-beam"></i>
-        <span class="num" data-val="900">000</span>
-        <span class="text">Happy Customers</span>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="{{ asset('IMG/logoWGJ.png') }}" alt="WeGoJim Logo" />
+        <span>WeGoJim</span>
       </div>
-      <div class="container">
-        <i class="fas fa-list"></i>
-        <span class="num" data-val="2000">000</span>
-        <span class="text">Course Listed</span>
+      <div class="nav-links">
+        <input type="text" placeholder="Search...">
+        <a href="{{ url('') }}">Home</a>
+        <a href="{{ url('/about') }}">About us</a>
+        <a href="{{ url('/course') }}">Courses</a>
+        <a href="{{ url('/') }}">Contact us</a>
+        <a href="#">FAQs</a>
+        <a href="{{ url('/daftar') }}" class="daftar">Daftar</a>
+        <a href="{{ url('/masuk') }}" class="login-btn">Login</a>
       </div>
-      <div class="container">
-        <i class="fas fa-star"></i>
-        <span class="num" data-val="1350">000</span>
-        <span class="text">Five Stars</span>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>COURSE</h1>
+      <h2>WeGoJim, Workout Plan Di <br />Gym & Rumah Terbaik Untuk <br />Semua Kalangan</h2>
+      <p>
+        WeGoJim hadir untuk membantu kamu memulai perjalanan fitness dengan menyediakan berbagai course latihan workout yang ramah bagi pemula, baik untuk latihan di rumah maupun di gym. Dengan panduan dari trainer berpengalaman, WeGoJim menawarkan program latihan yang mudah diikuti, dirancang untuk meningkatkan kebugaranmu secara menyeluruh. Mulai perjalanan fitnessmu bersama kami dan jadilah versi terbaik dari dirimu!
+      </p>
+      <a href="{{ url('/daftar') }}" id="cta-button">Enroll Course</a>
+    </div>
+
+    <div class="hero-side">
+      <img src="{{ asset('IMG/coursee.jpg') }}" alt="Workout Course" class="hero-img" />
+
+      <div class="wrapper">
+        <div class="container">
+          <i class="fas fa-smile-beam"></i>
+          <span class="num" data-val="900">000</span>
+          <span class="text">Happy Customers</span>
+        </div>
+        <div class="container">
+          <i class="fas fa-list"></i>
+          <span class="num" data-val="2000">000</span>
+          <span class="text">Course Listed</span>
+        </div>
+        <div class="container">
+          <i class="fas fa-star"></i>
+          <span class="num" data-val="1350">000</span>
+          <span class="text">Five Stars</span>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <script>
     const valueDisplays = document.querySelectorAll(".num");
@@ -76,6 +77,7 @@
       }, duration);
     });
   </script>
+
   <script src="Script.js"></script>
 </body>
 </html>
